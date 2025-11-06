@@ -85,7 +85,20 @@ The platform features a Binance-inspired design with:
 - Responsive layout for all devices
 - Intuitive navigation
 
-## 📝 Development Status
+## � Documentation
+
+- **[GETTING_STARTED.md](./GETTING_STARTED.md)** - Start here! Quick overview and next steps
+- **[QUICKSTART.md](./QUICKSTART.md)** - Get running in 5 minutes
+- **[SETUP.md](./SETUP.md)** - Comprehensive setup guide with troubleshooting
+- **[TASKS.md](./TASKS.md)** - Complete 18-week development roadmap
+- **[STATUS.md](./STATUS.md)** - Current project status and progress
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - System architecture and design decisions
+
+## �📝 Development Status
+
+**Current Phase:** Phase 1 Complete ✅ → Ready for Phase 2 (Authentication)
+
+**Overall Progress:** 12% Complete
 
 See [TASKS.md](./TASKS.md) for detailed development progress and roadmap.
 

@@ -1,5 +1,8 @@
 import { Box, Container, Typography, Button } from '@mui/material';
 import { Routes, Route, Link } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import DashboardPage from './pages/DashboardPage';
 
 function HomePage() {
   return (
@@ -86,8 +89,9 @@ function App() {
     <Box sx={{ bgcolor: 'background.default', minHeight: '100vh' }}>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/register" element={<Typography>Register Page (Coming Soon)</Typography>} />
-        <Route path="/login" element={<Typography>Login Page (Coming Soon)</Typography>} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
     </Box>
   );

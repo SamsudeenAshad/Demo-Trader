@@ -3,9 +3,14 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
+import connectDB from './config/database';
+import authRoutes from './routes/auth';
 
 // Load environment variables
 dotenv.config();
+
+// Connect to MongoDB
+connectDB();
 
 const app: Application = express();
 const httpServer = createServer(app);
@@ -38,6 +43,9 @@ app.get('/', (req, res) => {
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
+
+// API Routes
+app.use('/api/auth', authRoutes);
 
 // WebSocket connection
 io.on('connection', (socket) => {

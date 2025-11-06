@@ -203,15 +203,15 @@ Demo-Trader/
 
 ```
 Phase 1: Setup & Planning         ████████████████████ 100%
-Phase 2: Authentication           ░░░░░░░░░░░░░░░░░░░░   0%
-Phase 3: Dashboard & Layout       ░░░░░░░░░░░░░░░░░░░░   0%
+Phase 2: Authentication           ████████████████░░░░  85%
+Phase 3: Dashboard & Layout       ████░░░░░░░░░░░░░░░░  20%
 Phase 4: Market Data Integration  ░░░░░░░░░░░░░░░░░░░░   0%
 Phase 5: Trading Interface        ░░░░░░░░░░░░░░░░░░░░   0%
 Phase 6: Order Management         ░░░░░░░░░░░░░░░░░░░░   0%
 Phase 7: Portfolio Tracking       ░░░░░░░░░░░░░░░░░░░░   0%
 Phase 8: Gamification             ░░░░░░░░░░░░░░░░░░░░   0%
 
-Overall Progress:                 ██░░░░░░░░░░░░░░░░░░  12%
+Overall Progress:                 ████░░░░░░░░░░░░░░░░  25%
 ```
 
 ---

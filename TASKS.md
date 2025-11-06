@@ -25,14 +25,17 @@ A web-based demo trading platform with a Binance-inspired blue and white color p
 - [x] Install all dependencies
 - [x] Start development servers (frontend & backend running)
 
-### Phase 3: Authentication System (Week 2)
-- [ ] Design database schema for users
-- [ ] Implement user registration endpoint
-- [ ] Implement login/logout endpoints
-- [ ] Add JWT authentication
-- [ ] Create registration form component
-- [ ] Create login form component
-- [ ] Implement protected routes
+### Phase 3: Authentication System (Week 2) ✅ IN PROGRESS
+- [x] Design database schema for users
+- [x] Implement user registration endpoint
+- [x] Implement login/logout endpoints
+- [x] Add JWT authentication
+- [x] Create registration form component
+- [x] Create login form component
+- [x] Create dashboard page
+- [ ] Implement protected routes (advanced)
+- [ ] Add password reset functionality
+- [ ] Add email verification
 
 ### Phase 4: Dashboard & Layout (Week 3-4)
 - [ ] Create main layout component with sidebar navigation

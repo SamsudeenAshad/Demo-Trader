@@ -3,6 +3,12 @@ import { Routes, Route, Link } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
+import MarketsPage from './pages/MarketsPage';
+import PortfolioPage from './pages/PortfolioPage';
+import HistoryPage from './pages/HistoryPage';
+import LeaderboardPage from './pages/LeaderboardPage';
+import SettingsPage from './pages/SettingsPage';
+import ProfilePage from './pages/ProfilePage';
 
 function HomePage() {
   return (
@@ -92,6 +98,12 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/markets" element={<MarketsPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/history" element={<HistoryPage />} />
+        <Route path="/leaderboard" element={<LeaderboardPage />} />
+        <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </Box>
   );
